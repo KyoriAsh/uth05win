@@ -23,17 +23,17 @@ To start the game without translation, open config.ini and comment the line with
 Comparison
 ==========
 New features in this ported version:
-  replay support
-  translated into chinese (can be turned off)
-  fixed a number of bugs in the PC98 version
-  uses float instead of int where necessary, increasing accuracy
+ * replay support
+ * translated into chinese (can be turned off)
+ * fixed a number of bugs in the PC98 version
+ * uses float instead of int where necessary, increasing accuracy
 
 Features not ported in this version:
-  Music room
-  demo play
-  staff roll
-  player performance evaluation
-  some options
+ * Music room
+ * demo play
+ * staff roll
+ * player performance evaluation
+ * some options
 
 Controls
 ========
@@ -61,9 +61,9 @@ This program is in the public domain.
 The assets and libraries it uses belongs to their authors. Check their webpage for copyright information
 
 This program uses:
-assets from th05 (http://www.kt.rim.or.jp/~aotaka/am/index.htm)
-The OpenGL Extension Wrangler Library (http://glew.sourceforge.net/)
-PMDWin (http://c60.fmp.jp/)
+* assets from th05 (http://www.kt.rim.or.jp/~aotaka/am/index.htm)
+* The OpenGL Extension Wrangler Library (http://glew.sourceforge.net/)
+* PMDWin (http://c60.fmp.jp/)
 
 
 Misc

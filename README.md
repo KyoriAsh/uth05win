@@ -1,13 +1,11 @@
 The following text was taken from the original author Pegasy
 
-========================
 Introduction
-========================
+============
 This is an unofficial port of the game Touhou Kaikidan: Mystic Square (the fifth game of the touhou series, referred to as th05 below) to windows. It faithfully reproduces almost all features of the original PC98 version. Check "Comparison" section for the details
 
-========================
 Usage
-========================
+=====
 1. Extract all files into a folder.
 2. Download glew from http://glew.sourceforge.net/ (download the binaries) and extract glew32.dll into the same folder.
 3. Download PMDWin from http://c60.fmp.jp/ and extract PMDWin.dll into the same folder.
@@ -22,9 +20,8 @@ Usage
 
 To start the game without translation, open config.ini and comment the line with "MOD_FILE = chs.dat"
 
-========================
 Comparison
-========================
+==========
 New features in this ported version:
   replay support
   translated into chinese (can be turned off)
@@ -38,9 +35,8 @@ Features not ported in this version:
   player performance evaluation
   some options
 
-========================
 Controls
-========================
+========
 Similar to other games of touhou series:
   Z      Shoot
   X      Bomb
@@ -52,14 +48,12 @@ To toggle fullscreen mode, press alt + enter.
 
 Game pad is not supported.
 
-========================
 Known bugs
-========================
+==========
 When you switch to/from full screen mode, the font texture may become corrupted.
 
-========================
 Copyright
-========================
+=========
 1999 Team Shanghai Alice
 2011 Pegasy
 This program is in the public domain.
@@ -72,7 +66,6 @@ The OpenGL Extension Wrangler Library (http://glew.sourceforge.net/)
 PMDWin (http://c60.fmp.jp/)
 
 
-========================
 Misc
-========================
+====
 For bug report and feature request, please contact the one you received this program from:)

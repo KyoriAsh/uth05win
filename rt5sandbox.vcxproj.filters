@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{5a7156ba-73dd-4f5a-8e19-baf6865b82aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme">
+      <UniqueIdentifier>{29b23b83-e27a-4d02-8d8f-6f5c9bc7489e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\OP">
+      <UniqueIdentifier>{a232a311-6940-47e8-8c1a-9371358ff0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\TitleScreen">
+      <UniqueIdentifier>{ab596da5-8c21-455c-8ac1-423dd6016dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\SelectCharaScreen">
+      <UniqueIdentifier>{0b3264fc-6ff8-49e3-bd93-7d6aeddbf09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage">
+      <UniqueIdentifier>{1165d966-eb1a-4e3b-ad0d-c51417530433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Chara">
+      <UniqueIdentifier>{80688d75-cc00-4902-99c6-d273ab11868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\CharaBullet">
+      <UniqueIdentifier>{f7e591d3-8e9e-4ade-8616-a06a99a7c486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\EnemyBullet">
+      <UniqueIdentifier>{55d7b434-066b-424a-a545-99c78b984e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\GatherEffect">
+      <UniqueIdentifier>{65171ee3-585f-498f-b4d8-766111da47c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\SparkEffect">
+      <UniqueIdentifier>{6944cdf7-86e2-4b3d-a52d-fc93421e6b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\PopupNumber">
+      <UniqueIdentifier>{b64d8a6b-3c9d-4052-98f9-d90f1efb46ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Circle">
+      <UniqueIdentifier>{0cd51ddc-de5e-4956-a4b7-69fe65d0a7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Item">
+      <UniqueIdentifier>{6c8a5339-4e23-4dd7-b247-7b78e049779d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\FloatingText">
+      <UniqueIdentifier>{e380c45f-6188-4924-9279-99e2a369e657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Background">
+      <UniqueIdentifier>{77a0e1ca-ef2f-45bc-85cb-2477c1a6c524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Enemy">
+      <UniqueIdentifier>{b0a437ad-e1c5-467a-84ee-38c588300b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\MidBoss">
+      <UniqueIdentifier>{29ee0eb9-5302-4fea-9b72-9603d77cc921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\TextOverlay">
+      <UniqueIdentifier>{070b52f4-8615-4622-a756-dbb88586101d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Dialogue">
+      <UniqueIdentifier>{e60c11d1-2f66-494c-961d-1f26a1a6a7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Boss">
+      <UniqueIdentifier>{c38bf731-79f5-403f-b4a0-0a500b0b4c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Laser">
+      <UniqueIdentifier>{177ee1bb-5fb6-4c2a-815c-3e0b4654d0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Summary">
+      <UniqueIdentifier>{eeb2b9f9-f019-42ab-bce4-9c2dd20f926b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\Stage2BG">
+      <UniqueIdentifier>{ac90d8c4-f511-454b-b606-41a0e9d6848d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\Stage\SpecialBullet">
+      <UniqueIdentifier>{6cf7a96c-a783-4eeb-811e-af9d93343e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\ED">
+      <UniqueIdentifier>{9d520c7d-691e-449b-a6b7-1bca127b5533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\SelectReplayScreen">
+      <UniqueIdentifier>{b2cf2eed-a8ce-42a6-8bb0-bef0b81689a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scheme\HighScoreScreen">
+      <UniqueIdentifier>{f51ca4ac-376c-4596-8369-4b6fc205360b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib">
+      <UniqueIdentifier>{4b154aff-24a8-4ccd-a958-b6431ecbc13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile">
+      <UniqueIdentifier>{1a54b85d-a5cf-4a51-8605-8b3ee267e55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\CD2CDG">
+      <UniqueIdentifier>{da16afef-210d-48d0-9f25-732b717d5dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\BFT">
+      <UniqueIdentifier>{f4a063c3-ba6a-49b9-94bd-31d1f803b52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\PI">
+      <UniqueIdentifier>{8258cea1-87a8-4dee-88ca-b208db1c81f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\BB">
+      <UniqueIdentifier>{f84ac802-5349-421a-b910-6661d93c23db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\MPN">
+      <UniqueIdentifier>{4ffe4835-e71a-41eb-9632-24eacfab6c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\DatFile\STD">
+      <UniqueIdentifier>{f0797a86-e907-49a6-9ed6-a6ba8a53a03d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\PMDPlay">
+      <UniqueIdentifier>{1e30f7e6-f634-42a3-bff9-30838d9f47ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\Window">
+      <UniqueIdentifier>{6bd60e18-30fe-44f9-8295-ea47a3a6fe6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\Input">
+      <UniqueIdentifier>{52128255-9a91-4938-8575-c3fe4995655e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\SoundEffect">
+      <UniqueIdentifier>{49404243-bd6b-405d-92e8-d66f16f4857c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\Graphic">
+      <UniqueIdentifier>{d0502a23-67b8-4e69-abd3-e15b9cb82b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\CommonFunction">
+      <UniqueIdentifier>{00f52fac-d2b2-4274-8653-6a088b4b0915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLib\Misc">
+      <UniqueIdentifier>{0974b9ae-035f-459d-bb81-d3d6b7fed710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GlobalVariableAndStatistics.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Replay.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scheme.cpp">
+      <Filter>Source Files\Game\Scheme</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SchemeSwitcher.cpp">
+      <Filter>Source Files\Game\Scheme</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Op\Opening.cpp">
+      <Filter>Source Files\Game\Scheme\OP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Op\OpParticle.cpp">
+      <Filter>Source Files\Game\Scheme\OP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScreen\TitleRollingTama.cpp">
+      <Filter>Source Files\Game\Scheme\TitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScreen\TitleScreen.cpp">
+      <Filter>Source Files\Game\Scheme\TitleScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SelectCharaScreen\SelectCharaScreen.cpp">
+      <Filter>Source Files\Game\Scheme\SelectCharaScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Stage.cpp">
+      <Filter>Source Files\Game\Scheme\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\StageResource.cpp">
+      <Filter>Source Files\Game\Scheme\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Chara\Chara.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Chara\CharaMarisa.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Chara\CharaMima.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Chara\CharaReimu.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Chara\CharaYuka.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\CharaBullet\CharaBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\CharaBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\EnemyBullet\EnemyBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\GatherEffect\GatherEffect.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\GatherEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SparkEffect\SparkEffect.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\SparkEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\PopupNumber\PopupNumber.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\PopupNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Circle\Circle.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Item\Item.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\FloatingText\FloatingText.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\FloatingText</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Background\Background.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Enemy\Enemy.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBoss.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage1.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage2.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage3.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage4.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage5.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStageEx.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\TextOverlay\TextOverlay.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\TextOverlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Dialogue\Dialogue.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\Boss.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage1.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage2.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage3.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage4.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage4Mai.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage4Yuki.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage5.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStage6.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Boss\BossStageEx.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Laser\Laser.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Summary\Summary.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Summary</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\Stage2BG\Stage2BG.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\Stage2BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SpecialBullet\CurvingBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SpecialBullet\KnifeBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SpecialBullet\LargeBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SpecialBullet\ShinkiBullet.cpp">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ed\Ending.cpp">
+      <Filter>Source Files\Game\Scheme\ED</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SelectReplayScreen\SelectReplayScreen.cpp">
+      <Filter>Source Files\Game\Scheme\SelectReplayScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HighScoreScreen\HighScoreScreen.cpp">
+      <Filter>Source Files\Game\Scheme\HighScoreScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\th5DatFile.cpp">
+      <Filter>Source Files\GameLib\DatFile</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Cd2cdg\CD2CDGFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\CD2CDG</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Bft\BFTFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\BFT</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Pi\PIFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\PI</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Bb\BBFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\BB</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Mpn\MPNFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\MPN</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\th5DatFile\Std\STDFile.cpp">
+      <Filter>Source Files\GameLib\DatFile\STD</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\PMDPlayer\PMDPlayer.cpp">
+      <Filter>Source Files\GameLib\PMDPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Window\GameWindow.cpp">
+      <Filter>Source Files\GameLib\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Graphic\GLContext.cpp">
+      <Filter>Source Files\GameLib\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Input\KeyInputDI.cpp">
+      <Filter>Source Files\GameLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="include\DSUtil\dsutil.cpp">
+      <Filter>Source Files\GameLib\SoundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Se\SoundEffect.cpp">
+      <Filter>Source Files\GameLib\SoundEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Graphic\2DImage.cpp">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Graphic\2DImageArray.cpp">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Graphic\PC98Font.cpp">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Graphic\Th5ExtFont.cpp">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionGraphic.cpp">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionInput.cpp">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionMusicSE.cpp">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionSystem.cpp">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Misc\md5.cpp">
+      <Filter>Source Files\GameLib\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLib\Misc\sha1.cpp">
+      <Filter>Source Files\GameLib\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GlobalVariableAndStatistics.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Replay.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scheme.h">
+      <Filter>Source Files\Game\Scheme</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SchemeSwitcher.h">
+      <Filter>Source Files\Game\Scheme</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Op\Opening.h">
+      <Filter>Source Files\Game\Scheme\OP</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Op\OpParticle.h">
+      <Filter>Source Files\Game\Scheme\OP</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScreen\TitleRollingTama.h">
+      <Filter>Source Files\Game\Scheme\TitleScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScreen\TitleScreen.h">
+      <Filter>Source Files\Game\Scheme\TitleScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SelectCharaScreen\SelectCharaScreen.h">
+      <Filter>Source Files\Game\Scheme\SelectCharaScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Stage.h">
+      <Filter>Source Files\Game\Scheme\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\StageResource.h">
+      <Filter>Source Files\Game\Scheme\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Chara\Chara.h">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Chara\CharaMarisa.h">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Chara\CharaMima.h">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Chara\CharaReimu.h">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Chara\CharaYuka.h">
+      <Filter>Source Files\Game\Scheme\Stage\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\CharaBullet\CharaBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\CharaBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\EnemyBullet\EnemyBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\GatherEffect\GatherEffect.h">
+      <Filter>Source Files\Game\Scheme\Stage\GatherEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SparkEffect\SparkEffect.h">
+      <Filter>Source Files\Game\Scheme\Stage\SparkEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\PopupNumber\PopupNumber.h">
+      <Filter>Source Files\Game\Scheme\Stage\PopupNumber</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Circle\Circle.h">
+      <Filter>Source Files\Game\Scheme\Stage\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Item\Item.h">
+      <Filter>Source Files\Game\Scheme\Stage\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\FloatingText\FloatingText.h">
+      <Filter>Source Files\Game\Scheme\Stage\FloatingText</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Background\Background.h">
+      <Filter>Source Files\Game\Scheme\Stage\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Enemy\Enemy.h">
+      <Filter>Source Files\Game\Scheme\Stage\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBoss.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage1.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage2.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage3.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage4.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage5.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStageEx.h">
+      <Filter>Source Files\Game\Scheme\Stage\MidBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\TextOverlay\TextOverlay.h">
+      <Filter>Source Files\Game\Scheme\Stage\TextOverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Dialogue\Dialogue.h">
+      <Filter>Source Files\Game\Scheme\Stage\Dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\Boss.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage1.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage2.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage3.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage4.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage4Mai.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage4Yuki.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage5.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStage6.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Boss\BossStageEx.h">
+      <Filter>Source Files\Game\Scheme\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Laser\Laser.h">
+      <Filter>Source Files\Game\Scheme\Stage\Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Summary\Summary.h">
+      <Filter>Source Files\Game\Scheme\Stage\Summary</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\Stage2BG\Stage2BG.h">
+      <Filter>Source Files\Game\Scheme\Stage\Stage2BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SpecialBullet\CurvingBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SpecialBullet\KnifeBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SpecialBullet\LargeBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SpecialBullet\ShinkiBullet.h">
+      <Filter>Source Files\Game\Scheme\Stage\SpecialBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ed\Ending.h">
+      <Filter>Source Files\Game\Scheme\ED</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SelectReplayScreen\SelectReplayScreen.h">
+      <Filter>Source Files\Game\Scheme\SelectReplayScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HighScoreScreen\HighScoreScreen.h">
+      <Filter>Source Files\Game\Scheme\HighScoreScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\th5DatFile.h">
+      <Filter>Source Files\GameLib\DatFile</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Cd2cdg\CD2CDGFile.h">
+      <Filter>Source Files\GameLib\DatFile\CD2CDG</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Bft\BFTFile.h">
+      <Filter>Source Files\GameLib\DatFile\BFT</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Pi\PIFile.h">
+      <Filter>Source Files\GameLib\DatFile\PI</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Bb\BBFile.h">
+      <Filter>Source Files\GameLib\DatFile\BB</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Mpn\MPNFile.h">
+      <Filter>Source Files\GameLib\DatFile\MPN</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\th5DatFile\Std\STDFile.h">
+      <Filter>Source Files\GameLib\DatFile\STD</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\PMDPlayer\PMDPlayer.h">
+      <Filter>Source Files\GameLib\PMDPlay</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Window\GameWindow.h">
+      <Filter>Source Files\GameLib\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Graphic\GLContext.h">
+      <Filter>Source Files\GameLib\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Input\KeyInputDI.h">
+      <Filter>Source Files\GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DSUtil\dsutil.h">
+      <Filter>Source Files\GameLib\SoundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Se\SoundEffect.h">
+      <Filter>Source Files\GameLib\SoundEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Graphic\2DImage.h">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Graphic\2DImageArray.h">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Graphic\PC98Font.h">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Graphic\Th5ExtFont.h">
+      <Filter>Source Files\GameLib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionGraphic.h">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionInput.h">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionMusicSE.h">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionSystem.h">
+      <Filter>Source Files\GameLib\CommonFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Misc\md5.h">
+      <Filter>Source Files\GameLib\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLib\Misc\sha1.h">
+      <Filter>Source Files\GameLib\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rt5sandbox.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

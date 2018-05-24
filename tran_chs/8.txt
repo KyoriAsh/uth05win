@@ -1,0 +1,264 @@
+ADDRESS_TABLE:
+	10 - 371
+	372 - 703
+	704 - 1043
+	1044 - 1365
+
+
+=====================================================
+BLOCK 0 10-371:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03D
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      舞：你干得不错啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：{11_!?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：碍手碍脚的家伙不在了\n
+      　　终于可以使出真本事咯。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：这回一定要打倒你{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 4
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      灵梦：不管怎样，你们还是不够格\n
+      　　　的样子呢。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：怎么能强到这种程度{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：接下来好想去魔界的大人物\n
+      　　　那里啊{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：嗯，我来带路～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 372-703:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03D
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      舞：你干得不错啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：{11_!?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：碍手碍脚的家伙不在了\n
+      　　终于可以使出真本事咯。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：这回一定要打倒你{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 4
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：不值一提啊。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：怎么能强到这种程度{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：到底哪里才会有强大的家\n
+      　　　　伙呢。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：呜呜{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 704-1043:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03D
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      舞：你干得不错啊。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：差不多该动真格了吧{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：那是因为碍手碍脚的家伙不在\n
+      　　了呢。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：这回一定要打倒你{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 4
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：跟预想得程度差不多呢。\n
+      　　　也就是说还远不够格。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：太强了···{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：弱家伙就先不管了\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：好不甘心啊～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 1044-1365:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03D
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      舞：你干得不错啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：{11_!?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：碍手碍脚的家伙不在了\n
+      　　终于可以使出真本事咯。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：这回一定要打倒你{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 4
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：算是一般有意思吧。{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：你是什么人啊{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：我{08_?}\n
+      　　　是什么呢～。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      舞：居然输给这种家伙了～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END

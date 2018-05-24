@@ -1,0 +1,426 @@
+ADDRESS_TABLE:
+	10 - 617
+	618 - 1223
+	1224 - 1899
+	1900 - 2509
+
+
+=====================================================
+BLOCK 0 10-617:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：嗯，有奇怪的感觉···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：终于来了啊{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st03.bb1
+LOAD PATTERN FILE st03.bb2
+LOAD PATTERN FILE st03.bb3
+DRAW PATTERN(index=196, X=288, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST03B
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：恭候多时了。\n
+      　　从异世界来的客人{06_heart}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：就由我们来做你的对手吧{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：啥{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：···总之，这里是不会放你\n
+      　　过去的···\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：哦{08_?}这前边有什么东西呢{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：你以为能打倒我们两个{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：怎样才能输呢{03_music}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：不爽～{20_angry}\n
+      　　舞，来解决她吧{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：·····{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+DIALOG END
+
+=====================================================
+BLOCK 1 618-1223:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：难办咯，不知道该往哪里\n
+      　　　　走才对{12_...}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：不必担心{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st03.bb1
+LOAD PATTERN FILE st03.bb2
+LOAD PATTERN FILE st03.bb3
+DRAW PATTERN(index=196, X=288, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST03B
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：之后就由我们来带路吧\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：我“们”{08_?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：原来是这样啊。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：那么，你们是要带我到哪\n
+      　　　　里去呢{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：当然是灵魂可以永远安眠的地\n
+      　　方咯{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：啊，好开心啊。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：我以后会去的，你们先一\n
+      　　　　步上路吧{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：哎呀，明明是个好地方来着{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：我来带路吧···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：舞，来解决她吧{10_!!}\n
+       
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：·····{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+DIALOG END
+
+=====================================================
+BLOCK 2 1224-1899:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：觉得好象有点累。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：差不多休息一下如何～\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st03.bb1
+LOAD PATTERN FILE st03.bb2
+LOAD PATTERN FILE st03.bb3
+DRAW PATTERN(index=196, X=288, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST03B
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：初次见面。\n
+      　　从异世界来的客人{06_heart}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：我来带你前往可以休息到永远\n
+      　　的世界吧{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：很遗憾，我就是从那个世界\n
+      　　　来的哦···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：···{11_!?}\n
+      　　原来是这样，所以···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：所以说，反过来让我带你们\n
+      　　　去吧。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：雪，别跟他多废话了，反正是\n
+      　　要解决掉的···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：舞{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：是想动手了呢。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：不爽～{20_angry}\n
+      　　舞，来解决她吧{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：明白了···{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+DIALOG END
+
+=====================================================
+BLOCK 3 1900-2509:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：也太弱了点啦{06_heart}\n
+      　　　没有更强一点的家伙吗\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：哎呀，是在说我吗{08_?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st03.bb1
+LOAD PATTERN FILE st03.bb2
+LOAD PATTERN FILE st03.bb3
+DRAW PATTERN(index=196, X=288, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST03B
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：初次见面。\n
+      　　从异世界来的客人{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：真的强吗～{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 255
+SENTENCE START
+      ？？：···\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：······{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：就由我们来做你的对手吧{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      幽香：原来是要两个人一起上啊\n
+      　　　说不定会有点意思哦{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：是不是有意思，就要看你的本\n
+      　　领了{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：请务必弄得有意思一点哦\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：啊{06_heart}，试试看啊。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      雪：舞，来解决她吧{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      舞：·····{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+DIALOG END

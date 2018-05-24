@@ -1,0 +1,725 @@
+ADDRESS_TABLE:
+	10 - 1312
+	1313 - 2620
+	2621 - 3843
+	3844 - 4992
+
+
+=====================================================
+BLOCK 0 10-1312:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      ？？：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：谁{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st04.bb1
+LOAD PATTERN FILE st04.bb2
+DRAW PATTERN(index=192, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST04B
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我早就知道你来的事了哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：我只是毫无目的地瞎转悠而\n
+      　　　已···{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：那么，你有什么目的呢{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：对啦{07_!}\n
+      　　　最近，有太多这边的家伙到\n
+      　　　人类的世界来了啦{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：总之，很麻烦呢。\n
+      　　　就不能想点办法吗{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：唔～，那只是民间的旅游公\n
+      　　　司擅自开辟了新的线路而已\n
+      　　　，所以···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：很遗憾，我也没法去说什么\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：那是什么啊{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：说什么民间啥啥的···\n
+      　　　你到底是什么人啊{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：我吗···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 255
+SENTENCE START
+      ？？：神绮大人{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：没有必要去听这种家伙多废\n
+      　　　话{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：“这种家伙”{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      梦子：我会轻松地解决掉她，所以\n
+      　　　神绮大人请暂且退后吧。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我是觉得还没有到需要梦子\n
+      　　　出手的地步··\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：算了，就交给你了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：遵命{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：你们还真是信口开河啊{05_unhappy}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：那么，该怎么处理呢\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：要动手的话也行啊{07_!}\n
+      　　　放马过来吧{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呵呵呵{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 4
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      梦子：神绮大人～{09_sweat}\n
+      　　　对不起～{09_sweat}{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：好了，下面就是那家伙了{07_!}\n
+      　　　看我收拾你{10_!!}\n
+      　　　（目的有点不对）\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 1313-2620:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      ？？：终于来了呢。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：谁{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st04.bb1
+LOAD PATTERN FILE st04.bb2
+DRAW PATTERN(index=192, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST04B
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我早就知道你来的事了哦。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：是吗···\n
+      　　　　所以{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：你的目的是什么呢{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：那个…观光吗{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：那样的话，动静有点太大了\n
+      　　　呢。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：很可惜，我不得不请你老老\n
+      　　　实实地回去了。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：算了，反正我也觉得差不\n
+      　　　　多该回去了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 255
+SENTENCE START
+      ？？：神绮大人{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：为什么要让这种家伙乖乖地\n
+      　　　回去呢{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      魔理沙：“这种家伙”{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：她可是把这里搞得一团糟的\n
+      　　　罪魁祸首啊。我绝不原谅。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：哎呀，梦子。\n
+      　　　我是想等她露出破绽再趁机\n
+      　　　打倒她的···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      梦子：啊，原来是这样{09_sweat}\n
+      　　　对不起{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：不过，这里还不需要劳烦神\n
+      　　　绮大人动手。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：请到里面休息吧。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：算了，那就交给你了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：遵命{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：等等等等，你们居然明目\n
+      　　　　张胆地无视我说这些有的\n
+      　　　　没的{05_unhappy}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：看来是已经有了相应的精\n
+      　　　　神准备了吧。{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：我还没什么准备呢{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：倒是你才应该准备一下为好\n
+      　　　吧{08_?}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      梦子：神绮大人～{09_sweat}\n
+      　　　对不起～{09_sweat}{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：我要收拾一下那个狂妄的\n
+      　　　　家伙{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 2621-3843:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      ？？：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：谁{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st04.bb1
+LOAD PATTERN FILE st04.bb2
+DRAW PATTERN(index=192, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST04B
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我早就知道你来的事了哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：若是那样的话，请问这里是\n
+      　　　什么地方呢{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：这里是我的世界哟。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：那么，你是为何而来呢{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：最近，魔界的人在频繁地到\n
+      　　　人类的世界里来呢。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：人类的世界可是我的地盘，\n
+      　　　所以还是想提请你们注意一\n
+      　　　下{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：啊，对不起{09_sweat}\n
+      　　　我都没有注意到··\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：下次会留心的\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：哦{08_?}\n
+      　　　你究竟是什么人{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：我嘛···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 255
+SENTENCE START
+       ？？：神绮大人{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：没有必要去听这种家伙多废\n
+      　　　话{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：在魔界捣乱可是重罪{07_!}\n
+      　　　我饶不了她{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：梦子···\n
+      　　　算了，既然你说不可原谅。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      梦子：···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：那就交给你了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：遵命{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：怎么了{08_?}\n
+      　　　是说我还可以再捣点乱吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：是要偿还你之前所犯下的罪\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：也有可能在这里增添更多的\n
+      　　　罪孽哦。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呵呵呵{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      梦子：神绮大人～{09_sweat}\n
+      　　　对不起～{09_sweat}{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：哼，居然让我遭这份罪，有\n
+      　　　点无法原谅了呢。
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 3844-4992:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      ？？：终于来了呢。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：谁{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st04.bb1
+LOAD PATTERN FILE st04.bb2
+DRAW PATTERN(index=192, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST04B
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我早就知道你来的事了哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：好象藏着什么好东西呢{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：你说呢{08_?}\n
+      　　　那么，你的目的是{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：我只是来玩的哦。\n
+      　　　反正闲着也是闲的。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：不过是不是闹腾得有点太大\n
+      　　　了呢{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：大量虐杀也是玩的一种嘛。\n
+      　　　不管对手是魔界的人也好，\n
+      　　　人类也好。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：你是想说我造出来的魔界人\n
+      　　　很没用吗。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：跟我比的话的确是哦{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：既然这么说，那就不能放过\n
+      　　　你了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 255
+SENTENCE START
+      ？？：神绮大人{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+DRAW PATTERN(index=180, X=96, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：这种家伙还不需要劳烦神绮\n
+      　　　大人亲自动手。{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      梦子：我会轻松地解决掉她，所以\n
+      　　　神绮大人请暂且退后吧。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：我是觉得还没有到需要梦子\n
+      　　　出手的地步··\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      梦子：···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：算了，就交给你吧。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      梦子：遵命{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：哎，是要陪我玩吗。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：是啊，会陪你玩哦{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：哼，真狂妄。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：就用死来偿还对我们的侮辱\n
+      　　　之罪吧{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      梦子：神绮大人～{09_sweat}\n
+      　　　对不起～{09_sweat}{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：刚才那位应该更强吧{08_?}\n
+      　　　说不定能让我享受一下呢{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      梦子：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+DIALOG END

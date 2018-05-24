@@ -1,0 +1,21 @@
+开始附加关
+观看录象
+查看高分记录
+进入音乐室(Not implemented)
+更改各种设定
+返回WINDOWS
+开始游戏（Easy）
+开始游戏（Normal）
+开始游戏（Hard）
+开始游戏（Lunatic）
+更改开始游戏时的残机数(除附加关外)
+更改炸弹的个数(除附加关外)
+使用与86音源兼容的音源来播放BGM(Via PMDWin and DirectSound, not changeable)
+使用FM音源播放效果音(Via DirectSound, not changeable)
+由机器速度来决定拖慢程度（标准）(SlowMode not implemented)
+恢复所有选项至默认值(Not implemented)
+结束选项设定
+设置难度为简单                    （面向新手）
+设置难度为标准                  （面向一般人）
+设置难度为难                  （面向街机玩家）
+设置难度为非常难           （面向STG专业玩家）

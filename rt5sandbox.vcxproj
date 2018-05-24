@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CE8A1CF-EDEC-4294-8227-6821819D5662}</ProjectGuid>
+    <RootNamespace>rt5sandbox</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)rt5sandbox.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)rt5sandbox.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lib\glew32.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)rt5sandbox.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionGraphic.cpp" />
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionInput.cpp" />
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionMusicSE.cpp" />
+    <ClCompile Include="gameLib\CommonFunction\CommonFunctionSystem.cpp" />
+    <ClCompile Include="gameLib\Graphic\2DImage.cpp" />
+    <ClCompile Include="gameLib\Graphic\2DImageArray.cpp" />
+    <ClCompile Include="gameLib\Graphic\GLContext.cpp" />
+    <ClCompile Include="gameLib\Graphic\PC98Font.cpp" />
+    <ClCompile Include="gameLib\Graphic\Th5ExtFont.cpp" />
+    <ClCompile Include="gameLib\Input\KeyInputDI.cpp" />
+    <ClCompile Include="gameLib\Misc\md5.cpp" />
+    <ClCompile Include="gameLib\Misc\sha1.cpp" />
+    <ClCompile Include="gameLib\PMDPlayer\PMDPlayer.cpp" />
+    <ClCompile Include="gameLib\Se\SoundEffect.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Bb\BBFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Bft\BFTFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Cd2cdg\CD2CDGFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Mpn\MPNFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Pi\PIFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\Std\STDFile.cpp" />
+    <ClCompile Include="gameLib\th5DatFile\th5DatFile.cpp" />
+    <ClCompile Include="gameLib\Window\GameWindow.cpp" />
+    <ClCompile Include="Game\Ed\Ending.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\GlobalVariableAndStatistics.cpp" />
+    <ClCompile Include="Game\HighScoreScreen\HighScoreScreen.cpp" />
+    <ClCompile Include="Game\Op\Opening.cpp" />
+    <ClCompile Include="Game\Op\OpParticle.cpp" />
+    <ClCompile Include="Game\Replay.cpp" />
+    <ClCompile Include="Game\Scheme.cpp" />
+    <ClCompile Include="Game\SchemeSwitcher.cpp" />
+    <ClCompile Include="Game\SelectCharaScreen\SelectCharaScreen.cpp" />
+    <ClCompile Include="Game\SelectReplayScreen\SelectReplayScreen.cpp" />
+    <ClCompile Include="Game\Stage\Background\Background.cpp" />
+    <ClCompile Include="Game\Stage\Boss\Boss.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage1.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage2.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage3.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage4.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage4Mai.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage4Yuki.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage5.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStage6.cpp" />
+    <ClCompile Include="Game\Stage\Boss\BossStageEx.cpp" />
+    <ClCompile Include="Game\Stage\CharaBullet\CharaBullet.cpp" />
+    <ClCompile Include="Game\Stage\Chara\Chara.cpp" />
+    <ClCompile Include="Game\Stage\Chara\CharaMarisa.cpp" />
+    <ClCompile Include="Game\Stage\Chara\CharaMima.cpp" />
+    <ClCompile Include="Game\Stage\Chara\CharaReimu.cpp" />
+    <ClCompile Include="Game\Stage\Chara\CharaYuka.cpp" />
+    <ClCompile Include="Game\Stage\Circle\Circle.cpp" />
+    <ClCompile Include="Game\Stage\Dialogue\Dialogue.cpp" />
+    <ClCompile Include="Game\Stage\EnemyBullet\EnemyBullet.cpp" />
+    <ClCompile Include="Game\Stage\Enemy\Enemy.cpp" />
+    <ClCompile Include="Game\Stage\FloatingText\FloatingText.cpp" />
+    <ClCompile Include="Game\Stage\GatherEffect\GatherEffect.cpp" />
+    <ClCompile Include="Game\Stage\Item\Item.cpp" />
+    <ClCompile Include="Game\Stage\Laser\Laser.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBoss.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage1.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage2.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage3.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage4.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStage5.cpp" />
+    <ClCompile Include="Game\Stage\MidBoss\MidBossStageEx.cpp" />
+    <ClCompile Include="Game\Stage\PopupNumber\PopupNumber.cpp" />
+    <ClCompile Include="Game\Stage\SparkEffect\SparkEffect.cpp" />
+    <ClCompile Include="Game\Stage\SpecialBullet\CurvingBullet.cpp" />
+    <ClCompile Include="Game\Stage\SpecialBullet\KnifeBullet.cpp" />
+    <ClCompile Include="Game\Stage\SpecialBullet\LargeBullet.cpp" />
+    <ClCompile Include="Game\Stage\SpecialBullet\ShinkiBullet.cpp" />
+    <ClCompile Include="Game\Stage\Stage.cpp" />
+    <ClCompile Include="Game\Stage\Stage2BG\Stage2BG.cpp" />
+    <ClCompile Include="Game\Stage\StageResource.cpp" />
+    <ClCompile Include="Game\Stage\Summary\Summary.cpp" />
+    <ClCompile Include="Game\Stage\TextOverlay\TextOverlay.cpp" />
+    <ClCompile Include="Game\TitleScreen\TitleRollingTama.cpp" />
+    <ClCompile Include="Game\TitleScreen\TitleScreen.cpp" />
+    <ClCompile Include="include\DSUtil\dsutil.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionGraphic.h" />
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionInput.h" />
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionMusicSE.h" />
+    <ClInclude Include="gameLib\CommonFunction\CommonFunctionSystem.h" />
+    <ClInclude Include="gameLib\Graphic\2DImage.h" />
+    <ClInclude Include="gameLib\Graphic\2DImageArray.h" />
+    <ClInclude Include="gameLib\Graphic\GLContext.h" />
+    <ClInclude Include="gameLib\Graphic\PC98Font.h" />
+    <ClInclude Include="gameLib\Graphic\Th5ExtFont.h" />
+    <ClInclude Include="gameLib\Input\KeyInputDI.h" />
+    <ClInclude Include="gameLib\Misc\md5.h" />
+    <ClInclude Include="gameLib\Misc\sha1.h" />
+    <ClInclude Include="gameLib\PMDPlayer\PMDPlayer.h" />
+    <ClInclude Include="gameLib\Se\SoundEffect.h" />
+    <ClInclude Include="gameLib\th5DatFile\Bb\BBFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\Bft\BFTFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\Cd2cdg\CD2CDGFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\Mpn\MPNFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\Pi\PIFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\Std\STDFile.h" />
+    <ClInclude Include="gameLib\th5DatFile\th5DatFile.h" />
+    <ClInclude Include="gameLib\Window\GameWindow.h" />
+    <ClInclude Include="Game\Ed\Ending.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\GlobalVariableAndStatistics.h" />
+    <ClInclude Include="Game\HighScoreScreen\HighScoreScreen.h" />
+    <ClInclude Include="Game\Op\Opening.h" />
+    <ClInclude Include="Game\Op\OpParticle.h" />
+    <ClInclude Include="Game\Replay.h" />
+    <ClInclude Include="Game\Scheme.h" />
+    <ClInclude Include="Game\SchemeSwitcher.h" />
+    <ClInclude Include="Game\SelectCharaScreen\SelectCharaScreen.h" />
+    <ClInclude Include="Game\SelectReplayScreen\SelectReplayScreen.h" />
+    <ClInclude Include="Game\Stage\Background\Background.h" />
+    <ClInclude Include="Game\Stage\Boss\Boss.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage1.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage2.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage3.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage4.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage4Mai.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage4Yuki.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage5.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStage6.h" />
+    <ClInclude Include="Game\Stage\Boss\BossStageEx.h" />
+    <ClInclude Include="Game\Stage\CharaBullet\CharaBullet.h" />
+    <ClInclude Include="Game\Stage\Chara\Chara.h" />
+    <ClInclude Include="Game\Stage\Chara\CharaMarisa.h" />
+    <ClInclude Include="Game\Stage\Chara\CharaMima.h" />
+    <ClInclude Include="Game\Stage\Chara\CharaReimu.h" />
+    <ClInclude Include="Game\Stage\Chara\CharaYuka.h" />
+    <ClInclude Include="Game\Stage\Circle\Circle.h" />
+    <ClInclude Include="Game\Stage\Dialogue\Dialogue.h" />
+    <ClInclude Include="Game\Stage\EnemyBullet\EnemyBullet.h" />
+    <ClInclude Include="Game\Stage\Enemy\Enemy.h" />
+    <ClInclude Include="Game\Stage\FloatingText\FloatingText.h" />
+    <ClInclude Include="Game\Stage\GatherEffect\GatherEffect.h" />
+    <ClInclude Include="Game\Stage\Item\Item.h" />
+    <ClInclude Include="Game\Stage\Laser\Laser.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBoss.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage1.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage2.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage3.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage4.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStage5.h" />
+    <ClInclude Include="Game\Stage\MidBoss\MidBossStageEx.h" />
+    <ClInclude Include="Game\Stage\PopupNumber\PopupNumber.h" />
+    <ClInclude Include="Game\Stage\SparkEffect\SparkEffect.h" />
+    <ClInclude Include="Game\Stage\SpecialBullet\CurvingBullet.h" />
+    <ClInclude Include="Game\Stage\SpecialBullet\KnifeBullet.h" />
+    <ClInclude Include="Game\Stage\SpecialBullet\LargeBullet.h" />
+    <ClInclude Include="Game\Stage\SpecialBullet\ShinkiBullet.h" />
+    <ClInclude Include="Game\Stage\Stage.h" />
+    <ClInclude Include="Game\Stage\Stage2BG\Stage2BG.h" />
+    <ClInclude Include="Game\Stage\StageResource.h" />
+    <ClInclude Include="Game\Stage\Summary\Summary.h" />
+    <ClInclude Include="Game\Stage\TextOverlay\TextOverlay.h" />
+    <ClInclude Include="Game\TitleScreen\TitleRollingTama.h" />
+    <ClInclude Include="Game\TitleScreen\TitleScreen.h" />
+    <ClInclude Include="include\DSUtil\dsutil.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rt5sandbox.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

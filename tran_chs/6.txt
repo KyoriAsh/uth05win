@@ -1,0 +1,387 @@
+ADDRESS_TABLE:
+	10 - 623
+	624 - 1187
+	1188 - 1791
+	1792 - 2413
+
+
+=====================================================
+BLOCK 0 10-623:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      爱丽丝：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st06.bb1
+LOAD PATTERN FILE st06.bb2
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：好久不见。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：我们在哪里见过面吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：为了打倒你我才特地跑到\n
+      　　　　这边来的{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：那真是辛苦你了\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：为此，还学了各种各样的\n
+      　　　　魔法哦。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：现在不还在看书嘛\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：那是不看着书就用不出来\n
+      　　　　的，非～常非常厉害的魔\n
+      　　　　法哦{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：非常非常厉害{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：对，这就让你见识一下{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST06B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      灵梦：就说了你赢不了我的{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      爱丽丝：呜呜，绝对再也不和你打\n
+      　　　　了{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 624-1187:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      爱丽丝：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st06.bb1
+LOAD PATTERN FILE st06.bb2
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：好久不见。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：也不算太久吧{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：这回决不会输了{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：倒是很有自信呢\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：那是因为得到了记载着终\n
+      　　　　极魔法的书哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：啊，我想要。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：那是你们人类无法掌握的\n
+      　　　　魔法。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：是吗{08_?}\n
+      　　　　那就让我看看也好\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：不行。不过我会让你尝尝\n
+      　　　　滋味的{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST06B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魔理沙：那个魔法果然是不太容易\n
+      　　　　掌握呢{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      爱丽丝：为什么打不过啊{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 1188-1791:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      爱丽丝：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st06.bb1
+LOAD PATTERN FILE st06.bb2
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：好久不见。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：你谁啊。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：为了打倒你我才特地跑到\n
+      　　　　这边来的{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：啊～，我可没能力把杂鱼的\n
+      　　　相貌一个一个地都记住。{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：算了，不管怎样我都不会\n
+      　　　　让你全身而退的。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：就用终极的魔法来收拾你\n
+      　　　　吧{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：你能一边看书一边打吗\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：不劳你费心{07_!}，这就\n
+      　　　　让你见识见识{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST06B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：挺强的嘛{06_heart}\n
+      　　　还来吗。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：绝对再也不和你打了{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 1792-2413:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      爱丽丝：终于来了啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st06.bb1
+LOAD PATTERN FILE st06.bb2
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：好久不见。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：好久不见～{06_heart}\n
+      　　　跑到这边来有什么事吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：{08_?}　为了打倒你我才特地\n
+      　　　　跑到这边来的{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：说起来，你是谁啊。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：{05_unhappy}（无视）为此，还学了\n
+      　　　　各种各样的魔法哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：打算要陪我玩吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：陪你玩啊{07_!}\n
+      　　　　用终极的魔法{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：终极{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：对，这就让你见识见识{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST06B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：虽然有点强，却还是比不上\n
+      　　　我呢{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：太强了啦～{09_sweat}{09_sweat}\n
+      
+SENTENCE END
+DIALOG END

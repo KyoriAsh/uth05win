@@ -1,0 +1,342 @@
+ADDRESS_TABLE:
+	10 - 663
+	664 - 1099
+	1100 - 1512
+	1513 - 2145
+
+
+=====================================================
+BLOCK 0 10-663:
+DIALOG START
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：到底要走到哪里才算是个头\n
+      　　　啊{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：到此为止了{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st02.bb1
+LOAD PATTERN FILE st02.bb2
+LOAD PATTERN FILE st02.bb3
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST02B
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：你做得有点过分了哦\n
+      　　　　就不能再老实一点吗{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：我只是单方面受到攻击而\n
+      　　　已啊{07_!}\n
+      　　　（也并非是这样）\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：人类跑到这里来，想必是\n
+      　　　　已经有思想准备了吧{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：啊，好象是有了吧{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：你这是什么无精打采的回\n
+      　　　　答{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：就是说没准备输哦{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：你那自信到底是从哪里来\n
+      　　　　的啊{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：总之我要上了{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：你到底是何方神圣啊··\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：接下来是哪里呢{06_heart}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 664-1099:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：魔界人也没什么了不起的\n
+      　　　　嘛～···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：到此为止了{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st02.bb1
+LOAD PATTERN FILE st02.bb2
+LOAD PATTERN FILE st02.bb3
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST02B
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：你做得有点过分了哦\n
+      　　　　就不能再老实一点吗{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      魔理沙：你谁啊，这么狂妄{05_unhappy}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：连个厉害点的魔法都不会\n
+      　　　　，你就别在这里装腔作势\n
+      　　　　了{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：要试试吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：不可原谅{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：专心修炼去吧。\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 1100-1512:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：就没有更强的家伙了吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：到此为止了{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st02.bb1
+LOAD PATTERN FILE st02.bb2
+LOAD PATTERN FILE st02.bb3
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST02B
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：最近在这一带引起骚乱的\n
+      　　　　家伙就是你吧{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：还真是一副挑衅的态度呢{06_heart}\n
+      　　　想打吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：当然要打啊{07_!}\n
+      　　　　要让你变得安静一点{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：那就开始吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：不可原谅{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：你是来干吗的啊··\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 1513-2145:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：倒是挺爽快的。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      爱丽丝：到此为止了{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st02.bb1
+LOAD PATTERN FILE st02.bb2
+LOAD PATTERN FILE st02.bb3
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+LOAD AND PLAY MUSIC ST02B
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：最近在这一带引起骚乱的\n
+      　　　　家伙就是你吧{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：是啊{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：你是来干什么的{07_!}\n
+      　　　　就不能再安静一点吗{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：当然是来玩的啊\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      爱丽丝：你在这里玩，会添麻烦的\n
+      　　　　。换个地方吧···\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：不要嘛～\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      爱丽丝：知道了···\n
+      　　　　虽然也不算可惜，还是在\n
+      　　　　此告别吧{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：哦，要陪我玩吗{06_heart}\n
+      　　　好开心啊。\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      爱丽丝：呜呜呜{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：好，下一个，出发咯～{06_heart}\n
+      
+SENTENCE END
+DIALOG END

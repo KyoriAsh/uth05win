@@ -1,0 +1,402 @@
+ADDRESS_TABLE:
+	10 - 732
+	733 - 1254
+	1255 - 1698
+	1699 - 2128
+
+
+=====================================================
+BLOCK 0 10-732:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：呃～\n
+      　　　是这附近吗{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：怎么才能打开魔界的门呢{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：给我等一下{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st00.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      莎拉：你是要前往魔界吗\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：是倒是这么回事··\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：当然咯，我是不会放你过去\n
+      　　　的啦{19_star}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      灵梦：哦。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：···{05_unhappy}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：莫非，你在无视我{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：怎么可能～，只要打倒你不\n
+      　　　就行了么{03_music}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SET BOSS
+SENTENCE START
+      莎拉：谁说过这种话啦{05_unhappy}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      莎拉：算了，既然是久违的猎物·\n
+      　　　··\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：原来你也喜欢硬干啊{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      莎拉：来吧，那就动手吧\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：赢了的话，应该能顺利去魔\n
+      　　　界了吧{09_sweat}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST00B
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      莎拉：打起来是挺有意思，可是输\n
+      　　　了就不好玩了{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：啊，那倒也是呢。\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 733-1254:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：一直想去魔界转悠一回看\n
+      　　　　看呢{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：不过，怎么才能进去呢{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：给我等一下{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st00.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      莎拉：不会放你去魔界的哦{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魔理沙：太好了～{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：{11_!?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：终于有个像是知道怎么去\n
+      　　　　魔界的人了\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      莎拉：像是一副胸有成竹的样子啊\n
+      　　　是想要打一场么\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：不打也能告诉我吗？{03_music}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      莎拉：哪有可能\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：那就不客气了{19_star}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST00B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魔理沙：那我就走～咯{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：呜嗯～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 1255-1698:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：那么，会是谁在哪里呢～{18_rhythm}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：{11_!?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st00.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      莎拉：不会放你去魔界的哦{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：所以说{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：{11_!?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      魅魔：反正就算没有你也能去魔界\n
+      　　　的啦（骗人的）\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：呜～{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：总之，就是不会让你去的{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：总之，你很碍事\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      莎拉：哼哼，你很有把握么{18_rhythm}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：是很有把握啊{03_music}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      莎拉：可不要后悔喔{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST00B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：后悔和我打了吧{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：呜唉～嗯{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 1699-2128:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：好像有股弱者的气息～\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：你什么意思啊\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st00.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：看吧{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：你是在嘲弄我吗\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：嗯～{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：顺便说一句，你很碍事。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      莎拉：我就是来碍事的{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：胆子不小啊{06_heart}\n
+      　　　看我秒杀你哦\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      莎拉：来试试看啊{19_star}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST00B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：糟了，浪费了太多时间{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      莎拉：我可不是被秒杀的哦{12_...}\n
+      　　　呜呜···\n
+      
+SENTENCE END
+DIALOG END

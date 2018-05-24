@@ -1,0 +1,508 @@
+ADDRESS_TABLE:
+	10 - 1161
+	1162 - 2055
+	2056 - 2959
+	2960 - 3969
+
+
+=====================================================
+BLOCK 0 10-1161:
+DIALOG START
+SET CHARA
+SHOW FACE 4
+SET BOSS
+SENTENCE START
+      神绮：哦{08_?}梦子居然会输···\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：给我出来{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st05.bb1
+LOAD PATTERN FILE st05.bb2
+LOAD PATTERN FILE st05.bb3
+LOAD PATTERN FILE st05.bb4
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：梦子可是我制造的魔界人当\n
+      　　　中最强级别的···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：居然能打倒她。\n
+      　　　你也不是等闲之辈啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：从刚才起你就在说什么“我\n
+      　　　创造”啥啥的，难道是想当\n
+      　　　神吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：抱歉说晚了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 4
+SENTENCE START
+      神绮：是的，我就是神。这个魔界\n
+      　　　是我创造的。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：是，是吗{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：那样的话，倒省事了。\n
+      　　　跟魔界的家伙们说一声哦\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：说什么{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：别老到人类的世界来了{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：明白了。\n
+      　　　回头我会说的。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：不是回头，是马上{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：也有可能是马上哦{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：{11_!?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 5
+SENTENCE START
+      神绮：等你消失后我就去说。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：想动手{11_!?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：在我的世界里捣乱的罪过可\n
+      　　　是很重的哦。\n
+      　　　不可能放过你的。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：知道了啦。\n
+      　　　但是，如果我赢了的话要照\n
+      　　　说好的办哦{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：想打倒我{08_?}狂妄啊{10_!!}\n
+      　　　巫女只不过是神的走狗而已\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：这个嘛{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+DO NOTHING (command 14)
+SET BOSS
+SENTENCE START
+      神绮：我上了哦{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST05B
+DIALOG END
+
+=====================================================
+BLOCK 1 1162-2055:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      神绮：哦{08_?}梦子居然会输···\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：给我出来{07_!}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st05.bb1
+LOAD PATTERN FILE st05.bb2
+LOAD PATTERN FILE st05.bb3
+LOAD PATTERN FILE st05.bb4
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：梦子居然会输。\n
+      　　　看来你也不是等闲之辈啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：顺便把你也打倒了吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：你这自信是打哪儿来的{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：因为不觉得会输。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：哼。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魔理沙：赶快开始吧{06_heart}\n
+      　　　　打倒你之后就可以去找下\n
+      　　　　一个了。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：很遗憾，没有下一个了哦。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 4
+SENTENCE START
+      神绮：我是创造了这个魔界的神。\n
+      　　　这里没有比我更强的了。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      魔理沙：···\n
+      　　　　是嘛，太可惜了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 5
+SENTENCE START
+      神绮：难道你觉得就凭人类那些只\n
+      　　　靠耍小花招的魔法，能够和\n
+      　　　我一决胜负{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：指责对方在交手中耍小花\n
+      　　　　招这种事，向来不都只是\n
+      　　　　失败者的借口而已吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：哼，狂妄的家伙{10_!!}\n
+      　　　让你见识一下什么是真正的\n
+      　　　魔法。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：哎呀，好开心啊{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+DO NOTHING (command 14)
+SET BOSS
+SENTENCE START
+      神绮：我上了哦{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST05B
+DIALOG END
+
+=====================================================
+BLOCK 2 2056-2959:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      神绮：哦{08_?}梦子居然会输···\n      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：给我出来吧。\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st05.bb1
+LOAD PATTERN FILE st05.bb2
+LOAD PATTERN FILE st05.bb3
+LOAD PATTERN FILE st05.bb4
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：梦子可是我制造的魔界人当\n
+      　　　中最强级别的···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：居然能打倒她。\n
+      　　　你是什么人{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：刚才那个少女是造出来的{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：抱歉说晚了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 4
+SENTENCE START
+      神绮：这个魔界是我创造的。\n
+      　　　我是这个魔界的神。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：所以梦子并不是石头人之类\n
+      　　　的，而是普通的魔界人哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：原来如此。\n
+      　　　不过，我也是人类世界的神\n
+      　　　呢（骗人的）\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：总之，有太多魔界的家伙们\n
+      　　　跑到人类的世界来了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 5
+SENTENCE START
+      神绮：知道了。\n
+      　　　只要能打倒我，就帮你想想\n
+      　　　办法。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：是嘛，那就开始吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：要能让我尽兴一点哦。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：也有可能会让你笑不出来的\n
+      　　　呢{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：哼，狂妄{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+DO NOTHING (command 14)
+SET BOSS
+SENTENCE START
+      神绮：我上了哦{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST05B
+DIALOG END
+
+=====================================================
+BLOCK 3 2960-3969:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SENTENCE START
+      神绮：哦{08_?}梦子居然会输···\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：给我出来。\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 0
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st05.bb1
+LOAD PATTERN FILE st05.bb2
+LOAD PATTERN FILE st05.bb3
+LOAD PATTERN FILE st05.bb4
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      神绮：梦子可是我制造的魔界人当\n
+      　　　中最强级别的···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：居然能打倒她。\n
+      　　　你也不是等闲之辈啊。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：哼，你是想把自己当成是神\n
+      　　　吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：抱歉说晚了。\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 4
+SENTENCE START
+      神绮：是的，我就是神。这个魔界\n
+      　　　是我创造的。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      幽香：哎呀，原来真是这样{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：你把魔界搅得有点乱了呢。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：我就开个特例，亲自来裁决\n
+      　　　你吧。\n
+      　　　做好准备哦。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：你也很狂妄呢。\n
+      　　　就算是神，只有力量才是绝\n
+      　　　对的{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：知道了。\n
+      　　　那就来试试看到底谁的力量\n
+      　　　更强吧。\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：要是你弱的话可别怪我不客\n
+      　　　气哦{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 5
+SENTENCE START
+      神绮：狂妄的是你才对{07_!}\n
+      　　　只不过是个人类而已{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      幽香：别把我和人类混为一谈{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      神绮：随便了{07_!}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+DO NOTHING (command 14)
+SET BOSS
+SENTENCE START
+      神绮：我上了哦{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST05B
+DIALOG END

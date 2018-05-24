@@ -1,0 +1,236 @@
+ADDRESS_TABLE:
+	10 - 279
+	280 - 557
+	558 - 833
+	834 - 1145
+
+
+=====================================================
+BLOCK 0 10-279:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      雪：你这家伙～{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03C
+SET BOSS
+SENTENCE START
+      雪：你这家伙，竟然敢这样{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：我要动真格了{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 5
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：就算两个人一起上还是差得\n
+      　　　远呢\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：好不甘心啊{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：来，给我带下前边的路吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：呜呜～嗯{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 280-557:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      雪：你这家伙～{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03C
+SET BOSS
+SENTENCE START
+      雪：你这家伙，竟然敢这样{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：我要动真格了{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 5
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魔理沙：可不要费我太多的劲哦。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：为什么那么强啊～{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：那么，接下来就是这前面\n
+      　　　　了吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：呜呜～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 558-833:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      雪：你这家伙～{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03C
+SET BOSS
+SENTENCE START
+      雪：你这家伙，竟然敢这样{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：我要动真格了{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 5
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      魅魔：那就按照说好的，带你前往\n
+      　　　那个世界吧。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：饶了我吧～{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魅魔：另一个少女可是正在等着你\n
+      　　　呢～{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：呜呜～{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 834-1145:
+DIALOG START
+STOP MUSIC
+SET CHARA
+SHOW FACE 0
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      雪：你这家伙～{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：······\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST03C
+SET BOSS
+SENTENCE START
+      雪：你这家伙，竟然敢这样{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：我要动真格了{10_!!}\n
+      
+SENTENCE END
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 5
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：谢啦{06_heart}\n
+      　　　还是挺好玩的。\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：你是什么人啊{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      幽香：虽然已经到了魔界的腹地，\n
+      　　　但好象还能继续深入呢··\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      雪：这前面是···\n
+      
+SENTENCE END
+DIALOG END

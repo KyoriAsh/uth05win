@@ -1,0 +1,373 @@
+ADDRESS_TABLE:
+	10 - 766
+	767 - 1305
+	1306 - 1684
+	1685 - 2060
+
+
+=====================================================
+BLOCK 0 10-766:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      灵梦：啊，差不多了吧\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：哦，真是稀客啊{03_music}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st01.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      露易丝：难道是人类{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：是又怎样{07_!}\n
+      　　　你好象有意见么\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：没有啊，我无所谓啊{18_rhythm}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      露易丝：只是因为很少会有人从那\n
+      　　　　个世界来而已\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      灵梦：也是呢{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：反正魔界也是个好地方，\n
+      　　　　你就悠闲地观光一下吧{19_star}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 4
+SENTENCE START
+      灵梦：等等···\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：嗯{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：你是正要去人类的世界吧{05_unhappy}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：难道···{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：那就顺便把你也打倒吧{10_!!}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：这太过分了啦{10_!!}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：不用多废话{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：呜～{09_sweat}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST01B
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      露易丝：好不甘心～我想去人类的\n
+      　　　　世界啦{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      灵梦：再见～咯～{19_star}\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 1 767-1305:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魔理沙：啊，到了吗～{07_!}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：哦，真是稀客啊{03_music}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st01.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      露易丝：是人类吗{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：有什么事{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：没有，只是在想真是很难\n
+      　　　　得啊～{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：嗯～{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      露易丝：不过，你虽然是人类却是\n
+      　　　　个魔法使吧{03_music}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：是啊···\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      露易丝：太有意思了{19_star}\n
+      　　　　请务必和我交手一下吧{06_heart}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魔理沙：魔界的人还真是麻烦呢{09_sweat}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：那就不客气咯{06_heart}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST01B
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      露易丝：呜嗯～好强～{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SENTENCE START
+      魔理沙：不强的话也不会来这种地\n
+      　　　　方啊\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 2 1306-1684:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：哦{08_?}差不多到了吧{08_?}\n
+      　　　还有当地人呢\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st01.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SENTENCE START
+      露易丝：哎，是何方神圣啊{18_rhythm}\n
+      　　　　看上去不像是人类的样子\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      魅魔：是人类哟{06_heart}（骗人的）\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：是，是吗{08_?}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：怎么，想动手啊{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      露易丝：啊{06_heart}是啊。\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 3
+SENTENCE START
+      魅魔：是，是吗{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：那就不客气了{06_heart}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST01B
+DIALOG END
+=========================
+DIALOG START
+SET CHARA
+SHOW FACE 1
+SET BOSS
+SHOW FACE 3
+SENTENCE START
+      露易丝：不该动手的{09_sweat}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      魅魔：你到底想怎样啊···\n
+      
+SENTENCE END
+DIALOG END
+
+=====================================================
+BLOCK 3 1685-2060:
+DIALOG START
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：到啦～{06_heart}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      ？？：哎，是何方神圣啊{08_?}\n
+      
+SENTENCE END
+FADE TO WHITE, PARAM 1
+UNLOAD stage enemy pattern(180-) and if extra, overwrite common pattern with extra pattern(36-179)
+LOAD PATTERN FILE st01.bb1
+DRAW PATTERN(index=180, X=192, Y=48)
+FADE FROM WHITE, PARAM 1
+SET BOSS
+SHOW FACE 0
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：哎呀，怎么办呢\n
+      　　　这可是第一类接触啊\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 1
+SENTENCE START
+      露易丝：我是外星人吗···\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 0
+SENTENCE START
+      幽香：是魔界人吧\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      露易丝：总觉得，你真让人很不爽\n
+      　　　　呢{05_unhappy}\n
+      
+SENTENCE END
+SET CHARA
+SHOW FACE 2
+SENTENCE START
+      幽香：不爽所以就{08_?}\n
+      
+SENTENCE END
+SET BOSS
+SHOW FACE 2
+SENTENCE START
+      露易丝：就这样{10_!!}\n
+      
+SENTENCE END
+LOAD AND PLAY MUSIC ST01B
+DIALOG END
+=========================
+DIALOG START
+SET BOSS
+SHOW FACE 3
+SET CHARA
+SHOW FACE 1
+SENTENCE START
+      幽香：好了，是魔界了{19_star}\n
+      
+SENTENCE END
+SET BOSS
+SENTENCE START
+      露易丝：不是对手··{09_sweat}\n
+      
+SENTENCE END
+DIALOG END
